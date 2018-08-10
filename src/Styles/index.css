@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+ul {
+  margin: 0px;
+  padding: 0 px;
+}
+.list-item {
+  list-style: none;
+  float: left;
+  padding: 0px 30px;
+}
+.head-container {
+  height: 80px;
+  background: black;
+  line-height: 80px;
+  color: white;
+}
+.imagecontainer img {
+  height: 60px;
+  padding: 10px 30px;
+  padding-left: 70px;
+  float: left;
+}
+
+.right-menu {
+  list-style: none;
+  float: right;
+}
+.right-menu li {
+  float: left;
+  padding: 0px 30px;
+}
+
+.menuHeaderContainer {
+  height: 80px;
+  background: pink;
+}
+.menuHeaderContainer ul {
+  list-style: none;
+}
+.menuHeaderContainer ul li {
+  float: left;
+  line-height: 65px;
+  padding: 10px 30px;
+}

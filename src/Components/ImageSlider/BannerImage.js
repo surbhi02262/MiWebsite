@@ -8,6 +8,5 @@ render(){
         <img src={bannerImage} alt=""/>
         </div>
     );
-}
-}
+}}
 export default BannerImage

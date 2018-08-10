@@ -17,6 +17,7 @@ class AppImage extends Component{
             {StarProducts.map((image,i) => 
                 <img src = {image.url} alt="Image98"  />)}
         </div>}
+        
         </div>
         );
     }

@@ -38,5 +38,4 @@ export const StarProducts =[
     {title: "Mi Band" , url:MIBand},
     {title:"Mi Speaker" , url : MiSpeaker},
     {title: "Power bank" , url:PowerBank }
-
 ]

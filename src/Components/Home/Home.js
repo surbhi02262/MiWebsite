@@ -15,7 +15,8 @@ class Home extends Component {
     <MiPhoneMenu/>
     <BannerImage/>
     <AppImage Classname="brand"/>
-    <h3>Star Products</h3>
+    
+    <h3>Star Products</h3> 
     <AppImage Classname ="StarProducts"/>
     </div>
         );

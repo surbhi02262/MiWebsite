@@ -5,6 +5,5 @@ class MenuItems extends Component{
         return(
             <div>List here</div>
         );
-    }
-}
+    }}
 export default MenuItems

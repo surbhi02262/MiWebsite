@@ -13,8 +13,7 @@ class MiPhoneMenu extends Component{
             {miPhoneRightMenu.map((menuitems) => <li>{menuitems.title}</li>)}
             </ul>
             </div>
-        );
-    }
+        );}
 }
 
 export default MiPhoneMenu

@@ -11,7 +11,6 @@ class Header extends Component{
 {leftMenu.map((menus) => 
 <li className="list-item">{menus.title}</li> )}
 </ul>
-
 <ul className="right-menu">
 {rightMenu.map((menus) => <li>{menus.title}</li>)}
 </ul>

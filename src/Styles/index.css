@@ -45,5 +45,18 @@ ul {
 .menuHeaderContainer ul li {
   float: left;
   line-height: 65px;
-  padding: 10px 30px;
+  padding: 5px 30px;
+}
+.bannerImage img {
+  height: 600px;
+}
+.imageContainer img {
+  padding-right: 30px;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: 1000;
+  text-align: center;
+  color: grey;
 }

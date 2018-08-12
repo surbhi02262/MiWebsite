@@ -1,21 +1,21 @@
 import React, { Component } from "react";
-import { Images } from "./../Constant";
-import { StarProducts } from "./../Constant";
+import { images } from "./../Constant";
+import { starProducts } from "./../Constant";
 
 class AppImage extends Component {
   render() {
     return (
       <div>
-        {this.props.Classname === "brand" && (
+        {this.props.brandName === "brand" && (
           <div className="brand">
-            {Images.map((image, i) => (
+            {images.map((image, i) => (
               <img src={image.url} alt="Image11" />
             ))}
           </div>
         )}
-        {this.props.Classname === "StarProducts" && (
-          <div className="starProductsContainer">
-            {StarProducts.map((image, i) => (
+        {this.props.brandName === "starProducts" && (
+          <div className="star-products-container">
+            {starProducts.map((image, i) => (
               <img src={image.url} alt="Image98" />
             ))}
           </div>

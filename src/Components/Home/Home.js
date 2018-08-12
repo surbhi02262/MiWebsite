@@ -11,10 +11,9 @@ class Home extends Component {
         <Header />
         <MiPhoneMenu />
         <BannerImage />
-        <AppImage Classname="brand" />
-
+        <AppImage brandName="brand" />
         <h3>Star Products</h3>
-        <AppImage Classname="StarProducts" />
+        <AppImage brandName="starProducts" />
       </div>
     );
   }

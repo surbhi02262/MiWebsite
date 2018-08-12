@@ -1,4 +1,4 @@
-# Mi Website  
+# Practice Website  
 - `clone`: `git clone https://github.com/surbhi02262/MiWebsite.git`
 
 

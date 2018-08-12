@@ -1,6 +1,5 @@
 import React, { Component } from "react";
-import { leftMenu } from "./../Constant";
-import { rightMenu } from "./../Constant";
+import { rightMenu,leftMenu } from "./../Constant";
 
 class Header extends Component {
   render() {

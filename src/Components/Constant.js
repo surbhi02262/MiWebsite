@@ -28,14 +28,14 @@ export const miPhoneRightMenu = [
   { title: "Stores", state: "/stores" }
 ];
 
-export const Images = [
+export const images = [
   { title: "MobikWiki", url: MOBIKWIKI },
   { title: "PayTM", url: PAYTM },
   { title: "MobikWiki", url: PAYTM2 }
 ];
-export const StarProducts = [
+export const starProducts = [
+  { title: "Power bank", url: PowerBank },
   { title: "EarPhone", url: EarPhone },
   { title: "Mi Band", url: MIBand },
-  { title: "Mi Speaker", url: MiSpeaker },
-  { title: "Power bank", url: PowerBank }
+  { title: "Mi Speaker", url: MiSpeaker }
 ];

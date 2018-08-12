@@ -7,7 +7,7 @@ import "./../Styles/App.css";
 class App extends Component {
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Switch>
           <Route exact path="/" component={HomePage} />
         </Switch>

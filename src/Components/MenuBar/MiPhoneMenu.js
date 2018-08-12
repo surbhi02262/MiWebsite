@@ -1,17 +1,17 @@
 import React, { Component } from "react";
-import Logo from "./../../Images/miLogo.png";
+import logo from "./../../Images/miLogo.png";
 import { miPhoneRightMenu } from "./../Constant";
 
 class MiPhoneMenu extends Component {
   render() {
     return (
-      <div className="menuHeaderContainer">
-        <div className="imagecontainer">
-          <img src={Logo} alt="logo" />
+      <div className="menu-header-container">
+        <div className="image-container">
+          <img src={logo} alt="logo" />
         </div>
-        <ul className="miPhonerightmenu">
-          {miPhoneRightMenu.map(menuitems => (
-            <li>{menuitems.title}</li>
+        <ul className="mi-Phone-right-menu">
+          {miPhoneRightMenu.map(menuItems => (
+            <li>{menuItems.title}</li>
           ))}
         </ul>
       </div>

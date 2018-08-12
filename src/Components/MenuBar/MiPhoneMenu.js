@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import logo from "./../../Images/miLogo.png";
 import { miPhoneRightMenu } from "./../Constant";
+import MenuData from "../MenuBar/MenuData";
 
 class MiPhoneMenu extends Component {
   render() {
@@ -14,6 +15,7 @@ class MiPhoneMenu extends Component {
             <li>{menuItems.title}</li>
           ))}
         </ul>
+        <MenuData />
       </div>
     );
   }

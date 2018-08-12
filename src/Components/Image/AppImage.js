@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { images,starProducts } from "./../Constant";
+import { images, starProducts } from "./../Constant";
 
 class AppImage extends Component {
   render() {
@@ -23,6 +23,5 @@ class AppImage extends Component {
     );
   }
 }
-
 
 export default AppImage;

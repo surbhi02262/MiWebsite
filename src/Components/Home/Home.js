@@ -3,6 +3,8 @@ import Header from "./../Header/Header";
 import MiPhoneMenu from "./../MenuBar/MiPhoneMenu";
 import BannerImage from "./../ImageSlider/BannerImage";
 import AppImage from "./../Image/AppImage";
+import Footer from './../Footer/Footer'
+import {footerMenus} from './../Constant'
 
 class Home extends Component {
   render() {
@@ -14,6 +16,7 @@ class Home extends Component {
         <AppImage brandName="brand" />
         <h3>Star Products</h3>
         <AppImage brandName="starProducts" />
+        <Footer footerMenu={footerMenus}/>
       </div>
     );
   }

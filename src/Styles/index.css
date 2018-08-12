@@ -19,7 +19,7 @@ ul {
   line-height: 80px;
   color: white;
 }
-.image-container img {
+.imagecontainer img {
   height: 60px;
   padding: 10px 30px;
   padding-left: 70px;
@@ -35,22 +35,22 @@ ul {
   padding: 0px 30px;
 }
 
-.menu-header-container {
+.menuHeaderContainer {
   height: 80px;
   background: pink;
 }
-.menu-header-container ul {
+.menuHeaderContainer ul {
   list-style: none;
 }
-.menu-header-container ul li {
+.menuHeaderContainer ul li {
   float: left;
   line-height: 65px;
   padding: 5px 30px;
 }
-.banner-image img {
+.bannerImage img {
   height: 600px;
 }
-.image-container img {
+.imageContainer img {
   padding-right: 30px;
 }
 

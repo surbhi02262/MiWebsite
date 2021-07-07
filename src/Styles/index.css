@@ -60,3 +60,43 @@ h3 {
   text-align: center;
   color: grey;
 }
+
+.brand {
+  padding-left: 30px;
+}
+.brand img {
+  padding: 20px 30px;
+}
+
+.star-products-container {
+  padding-left: 60px;
+  float: left;
+}
+.star-products-container img {
+  float: left;
+}
+.footer-container {
+  display: block;
+  background-color: black;
+}
+
+.footer-container ul {
+  padding: 0px;
+  margin: 0px;
+  list-style: none;
+  color: black;
+  font-weight: 300;
+}
+.footer-container > li {
+  padding-right: 140px;
+  padding-left: 0px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-weight: 900;
+  list-style-type: none;
+  color: black;
+  float: left;
+}
+.footer-container > ul > li {
+  padding-bottom: 40px;
+}
